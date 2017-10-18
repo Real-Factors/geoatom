@@ -1,18 +1,18 @@
 # unique-id
 
-##Goal
+## Goal
  
 To create an accurate, atomic unique identifier for every physical structure in the world. Unique ID aims to be the single source of truth on property identity.
  
-##Data sources
+## Data sources
  
-###[OSCAR](https://www.wmo-sat.info/oscar/)
+### [OSCAR](https://www.wmo-sat.info/oscar/)
     -   A database of launched satellites
     -   TBD # of data points
     -   **TO DO**
         -   Use in phase 2 of the project to find quality satelite data
  
-###[Openaddressess.io](https://openaddresses.io/)
+### [Openaddressess.io](https://openaddresses.io/)
     -   478m addresses globally
     -   Usage
         -   Use as a starting data source
@@ -21,7 +21,7 @@ To create an accurate, atomic unique identifier for every physical structure in 
 
 
  
-###[Google Maps APIs](https://developers.google.com/maps)
+### [Google Maps APIs](https://developers.google.com/maps)
     -   TBD # of data points
     -   Usage
         -   Store Places API data as a data source
@@ -35,13 +35,13 @@ To create an accurate, atomic unique identifier for every physical structure in 
         -   Negotiate Enterprise License so we can cache more than 30 days of data
         -   Model out pricing/cost for use case
 
-###[Yelp](https://www.yelp.com/developers/documentation/v2/overview)
+### [Yelp](https://www.yelp.com/developers/documentation/v2/overview)
     -   TBD # of data points
     -   Usage
         -   Store listing data as a data source
 
  
-###[Open Street Map](https://www.openstreetmap.org)
+### [Open Street Map](https://www.openstreetmap.org)
     -   TBD # of data points
     -   Usage
         -   Store data as a data source
@@ -60,7 +60,7 @@ To create an accurate, atomic unique identifier for every physical structure in 
         -   Create proof of concept using free/open data sources (see: planet OSM)
 
 
-###Misc Tools
+## Misc Tools
 Address parsing and normalization through [libpostal](https://github.com/openvenues/libpostal)
 [geographic addresses format templates](https://github.com/OpenCageData/address-formatting)
 
