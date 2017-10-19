@@ -16,9 +16,9 @@ In Phase 2, we will use our single source of truth database created during Phase
 
 ## DATA SOURCES
 
-### [Openaddressess.io](https://openaddresses.io/)
+### [Openaddressess.io](https://openaddresses.io/)  
 478m addresses globally
-#### Usage
+#### Potential Use
 Openaddressess will be a starting data source
 
 #### To Do
@@ -27,7 +27,7 @@ Openaddressess will be a starting data source
 
 ### [Open Street Map](https://www.openstreetmap.org)
 
-#### Usage
+#### Potential Use
 Primary usage will be to store addresses in single source of truth db. Geocoding services seem cheaper than google so might be a good commercial option to fill in the gaps.
 
 #### Data Download
@@ -68,7 +68,7 @@ Primary usage will be to store addresses in single source of truth db. Geocoding
 ### [Yelp](https://www.yelp.com/developers/documentation/v2/overview)
 #### TBD # of data points
 
-#### Usage
+#### Potential Use
 - Store listing address data for single source of truth db.
 - Store review and other unstructured data as potential indicator of misclassification of buildings etc.
 
@@ -85,7 +85,7 @@ Primary usage will be to store addresses in single source of truth db. Geocoding
 A listing database of launched satellites
 
 #### TBD # of data points
-#### Usage
+#### Potential Use
 Find inexpensive and suitable satelite data sources for use in Phase 2.
 #### To Do
 Research which satelite data will provide most value to phase 2 of the project
@@ -94,8 +94,3 @@ Research which satelite data will provide most value to phase 2 of the project
 ## MISC TOOLS
 - Address parsing and normalization through [libpostal](https://github.com/openvenues/libpostal)  
 - [geographic addresses format templates](https://github.com/OpenCageData/address-formatting)
-
- 
- 
- 
- 
