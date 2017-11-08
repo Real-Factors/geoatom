@@ -1,0 +1,13 @@
+meta:
+  local: data
+openaddress:
+  base_url: https://s3.amazonaws.com/data.openaddresses.io/openaddr-collected-
+  global: global.zip
+  us_northeast: us_northeast.zip
+  us_midwest: us_midwest.zip
+  us_south: us_south.zip
+  us_west: us_west.zip
+  europe: europe.zip
+  asia: asia.zip
+  south_america: south_america.zip
+  north_america_ex_us: north_america.zip
